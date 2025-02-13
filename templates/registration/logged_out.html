@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}ログアウト{% endblock %}
+
+{% block content %}
+<div class="p-4 m-4 bg-light border border-success rounded">
+    <p>ログアウトしました</p>
+    <a href="{% url 'login' %}">ログイン</a>
+  </div>
+{% endblock %}
